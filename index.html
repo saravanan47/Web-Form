@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTRATION FORM</title>
+ <link rel="stylesheet" type="text/css" href="./css/style.css"> 
+</head>
+
+<body>
+    <h2>
+        New Student Data Registration Form
+    </h2>
+<div id="form">
+
+
+<form action="./assets/connect.php" method="POST">
+<ul>
+    <li>First Name:<br> <input type="text" name="fname" placeholder="Ex:Saravanan" required ></li>
+    <li> Last Name:<br><input type="text" name="lname" placeholder="Ex:vijay" required></li>
+</ul>
+
+ 
+<ul>
+    <li>E-Mail Id:<br><input id="em" type="email" name="Mail" placeholder="Ex:vijay@gmail.com" required></li> 
+</ul>
+
+<ul>
+    <li>Mobile Number:<br><input id="mb"  type="text" name="mnumber" placeholder="Ex:9876543210" required></li>
+</ul>
+
+
+<ul>
+    <li>Date Of Birth:<br><input id="db" type="Date" name="dnumber" required>
+    </li>
+  </ul>
+
+<ul>
+   <li > Gender:<br>
+      <select name="gen" required>
+        <option >Male</option>
+        <option>Female</option>
+      </select>
+    </li>
+</ul>
+
+
+<ul>
+  <li>
+    Father's Name:<br><input type="text" name="father" required>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    Mother's Name:<br><input type="text" name="mother" required>
+  </li>
+</ul>
+
+
+<ul>
+    <li>
+      Address:<br><textarea id="add" rows="5" cols="35" name="add" required></textarea>
+    </li>
+</ul>
+
+<ul>
+  <li>
+    City:<br><input  type="Address" name="city" required>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    State:<br><input  type="Address" name="state" placeholder="Tamil Nadu" required>
+  </li>
+</ul>
+
+
+<ul>
+  <li><br><br>
+    <p>
+      Hobbies:
+    </p>
+    <input class="hob" type="checkbox" name="Hobby[ ]" value="Drawing"  />Drawing<br>
+    <input class="hob"type="checkbox" name="Hobby[ ]" value="Singing"  />Singing<br>
+    <input class="hob" type="checkbox" name="Hobby[ ]" value="Dancing" />Dancing<br>
+    <input class="hob"type="checkbox" name="Hobby[ ]" value="Sketching" />Sketching<br>
+    <input class="hob"type="checkbox" name="Hobby[ ]" value="others" />Others
+  </li>
+</ul>
+
+
+<ul>
+  <li>
+   <br><br>
+      <p id="q">
+        Qualifications:
+      </p>
+        <input class="qua"type="radio" name="High" value="High School" />High School(10th)<br>
+        <input class="qua" type="radio" name="High" value="Higher School" />Higher School(12th)<br/>
+        <input class="qua"type="radio" name="High" value="Graduation" />Graduation(Bachelors)<br/>
+        <input class="qua" type="radio" name="High" value="Post Graduation" />PostGraduation
+  </li>
+</ul>
+
+<ul>
+  <li class="oh"><br><br><br><p>Branch:</p>
+    <select class="opt1" name="dept" required >
+      <option>---</option>
+      <option>CSE</option>
+      <option>EEE</option>
+      <option>ECE</option>
+      <option>MECHANICAL</option>
+      <option>CIVIL</option>
+      <option>IT</option>
+      <option>NANO TECHNOLOGY</option>
+      <option>FOOD TECHNOLOGY</option>
+    </select>
+  </li>
+</ul>
+
+<ul>
+  <li class="sel">
+    <br><p>Course Applied:</p>
+      <select class="opt" name="course" required>
+         <option>---</option>
+      <option>BE (Bachelor Of Engineering)</option>
+      <option>B.TECH (Bachelor Of Technology)</option>
+      <option>ME (Master Of Engineering)</option>
+      <option>M.TECH (Master Of Technology)</option>
+      </select>
+  </li>
+</ul>
+
+<ul>
+    <li><br><br>
+      <input id="sub" type="submit" name="submit" value="SUBMIT"></li>
+</ul>
+
+</div>
+</form>
+
+</div>
+
+</body>
+</html>
